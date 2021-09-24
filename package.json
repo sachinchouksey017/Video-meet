@@ -1,0 +1,19 @@
+{
+  "name": "video-meet",
+  "version": "1.0.0",
+  "description": "Video meet is for video communication",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sachinchouksey017/Video-meet.git"
+  },
+  "author": "sachin chouksey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sachinchouksey017/Video-meet/issues"
+  },
+  "homepage": "https://github.com/sachinchouksey017/Video-meet#readme"
+}
