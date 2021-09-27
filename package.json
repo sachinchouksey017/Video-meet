@@ -4,7 +4,8 @@
   "description": "Video meet is for video communication",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/sachinchouksey017/Video-meet/issues"
   },
-  "homepage": "https://github.com/sachinchouksey017/Video-meet#readme"
+  "homepage": "https://github.com/sachinchouksey017/Video-meet#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "nodemon": "^2.0.13",
+    "uuid": "^8.3.2"
+  }
 }
