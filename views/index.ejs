@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,13 +9,30 @@
     <script src="/socket.io/socket.io.js"></script>
     <script src="https://unpkg.com/peerjs@1.3.1/dist/peerjs.min.js"></script>
     <script>
-        const ROOM_ID="<%= roomId %>"
+        const ROOM_ID = "<%= roomId %>"
     </script>
 </head>
+
 <body>
     <h1>Hello welcome to Video chat</h1>
-    <div id='video-grid'></div>
+    <div id='video-grid'>
+        <!-- <div>
+            <video src="https://www.w3schools.com/tags/movie.mp4" controls></video>
+            <div>
+                <h3>name of person</h3>
+                <div>
+                    <button>
+                        <img src="mute.svg" alt="mute">
+                    </button>
+                    <button>
+                        <img src="unmute.svg" alt="unmute">
+                    </button>
+                </div>
+            </div>
+        </div> -->
+    </div>
     <button onclick="sendMsg()">send</button>
 </body>
 <script src="script.js"></script>
+
 </html>
