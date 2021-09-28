@@ -7,7 +7,7 @@ var peer = new Peer();
 var socket = io();
 
 
-    navigator.mediaDevices.getUserMedia({ video: false, audio: false }).then(stream => {
+    navigator.mediaDevices.getUserMedia({ video: true, audio: true }).then(stream => {
         console.log(stream);
         myVideoStream = stream;
         addVideoStream(myVideo, myVideoStream)
@@ -22,7 +22,7 @@ var socket = io();
 
     }).catch(err => {
 
-        console.log("not allowed by user")
+        console.log("not allowed by user",err)
     })
 
 const addVideoStream = (video, stream) => {
